@@ -1,13 +1,13 @@
 {% set name = "dbstep" %}
-{% set version = "1.1.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0cb00250d8b91511d780dbe560c3565e6d2f097604d35dce90fdf3dbbc89f221
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ad803f5322d1588f075bfa5cf08e0ed8b9f451a8c5581f48df8f73e26d83b008
 
 build:
   noarch: python
